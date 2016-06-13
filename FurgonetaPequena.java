@@ -5,12 +5,12 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class FurgonetaPequeña extends VehiculoPeque
+public class FurgonetaPequena extends VehiculoPeque
 {
     /**
      * Constructor for objects of class FurgonetaPequeña
      */
-    public FurgonetaPequeña(Marca marca,int antiguedad,int kilometraje,int plazas)
+    public FurgonetaPequena(Marca marca,int antiguedad,int kilometraje,int plazas)
     {
         super(marca,antiguedad,kilometraje,plazas);
        

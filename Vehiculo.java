@@ -1,11 +1,15 @@
 
 public class Vehiculo
 {
-    // instance variables - replace the example below with your own
+    //marca del vehiculo
     private Marca marca;
+    //antiguedad del vehiculo
     private int antiguedad;
+    //kilometraje del vehiculo
     private int kilometraje;
+    //cont id del vehiculo
     private static int contNumeroIdentificativo = 0;
+    //id vehiculo
     private int numeroIdentificativo;
 
     /**
@@ -30,7 +34,7 @@ public class Vehiculo
     }
     
      /**
-     * devuelve el id
+     * devuelve la marca 
      * 
      */
     public Marca getMarca()

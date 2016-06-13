@@ -15,13 +15,19 @@ public class Coche extends VehiculoPeque
     {
         super(marca, ant, kilometraje, plazas);
     }
-
+    
+    /**
+     * numero de plazas que tiene el coche
+     */
     public int getNumeroPlazas()
     {
         return super.getPlazas();
     }
-
-    public boolean cumplenMedidasSeguridad()
+    
+    /**
+     * para saber si cumples las medidas el coche 
+     */
+    public boolean cumplenMedidasCoche()
     {
         boolean cumple = false;
         if (getPlazas() <= 5 && getPlazas() > 0)

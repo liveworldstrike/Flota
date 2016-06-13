@@ -19,7 +19,9 @@ public abstract class VehiculoPeque extends Vehiculo
         this.plazas = plazas;
 
     }
-
+    /**
+     * devuelve el numero de plazas 
+     */
     public int getPlazas(){
         return plazas;
     }

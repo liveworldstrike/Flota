@@ -7,11 +7,11 @@
  */
 public abstract class VehiculoGrande extends Vehiculo
 {
-    //numero de plazas
+    //peso del vehiculo
     private int peso;
 
     /**
-     * Constructor 
+     * Constructor de a clase VehiculoGrande
      */
     public VehiculoGrande(Marca marca,int antiguedad,int kilometraje,int peso)
     {
@@ -19,7 +19,10 @@ public abstract class VehiculoGrande extends Vehiculo
         this.peso = peso;
 
     }
-
+    
+    /**
+     * devuelve el peso 
+     */
     public int getPeso(){
         return peso;
     }

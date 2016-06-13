@@ -16,7 +16,7 @@ public class Camion extends VehiculoGrande
     }
 
     /**
-     * 
+     * devuelve el peso
      */
     public int getPeso()
     {
